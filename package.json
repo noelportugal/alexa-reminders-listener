@@ -1,0 +1,26 @@
+{
+  "name": "alexa-reminders-listener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noelportugal/alexa-reminders-listener.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noelportugal/alexa-reminders-listener/issues"
+  },
+  "homepage": "https://github.com/noelportugal/alexa-reminders-listener#readme",
+  "dependencies": {
+    "alexa-reminders": "^1.0.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "ngrok": "^2.2.24"
+  }
+}
