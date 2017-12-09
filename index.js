@@ -22,7 +22,7 @@ app.post('/alexa-reminders', urlencodedParser, function (req, res) {
 app.listen(serverPort, function () {
   ngrok.connect(serverPort, function (err, url) {
     console.log('External endpoint:')
-    console.log('curl -X POST -d "reminder=Ask Alexa team for a proper Reminders API" ' + url + '/alexa-reminders\n')
+    console.log('curl -X POST -d "reminder=Ask Alexa team for a proper Reminders API" ' + url + '/alexa-reminders')
     console.log('Internal endpoint:')
     console.log('curl -X POST -d "reminder=Ask Alexa team for a proper Reminders API" ' + 'http://localhost:' + serverPort + '/alexa-reminders')
   })
